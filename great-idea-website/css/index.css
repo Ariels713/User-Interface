@@ -75,7 +75,14 @@ h1, h2, h3, h4, h5 {
 	padding-left: 50px;
 	text-decoration: none;
 	color: gray;
+
 }
+.navigation{
+	position: fixed;
+	background: whitesmoke;
+
+}
+
 .navItems {
 	display: inline-block;
 }
@@ -93,14 +100,21 @@ h1, h2, h3, h4, h5 {
 	width: 450px;
 	font-size: 70px;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 100px;
+
 }
-button {
+button{
 	height:40px;
 	width: 100px;
 	border-radius: 5px;
 	margin-bottom:  20px;
+
 }
+button:hover{
+	color: whitesmoke;
+	color: salmon;
+}
+
 
 .round_picture {
 	display: inline-block;
